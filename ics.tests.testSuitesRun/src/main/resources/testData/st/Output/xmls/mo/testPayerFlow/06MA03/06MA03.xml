@@ -1,0 +1,36 @@
+﻿<Document xmlns="urn:xsd:ipsl.ics" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ICN>
+    <Core>
+      <BusinessDate>2017-04-06</BusinessDate>
+      <ExtractId>0000042017040306MA03000117</ExtractId>
+      <ProcessingParticipantId>000005</ProcessingParticipantId>
+      <ExtMessageType>MSG06</ExtMessageType>
+      <IntMessageType>06MA03</IntMessageType>
+      <MessageSource>MO</MessageSource>
+      <MessageDestination>IA</MessageDestination>
+      <RecordCounts>1</RecordCounts>
+    </Core>
+    <Entities>
+      <Entity>
+        <EntityType>I</EntityType>
+        <EntityId>CWP0000028704810lorkSh779</EntityId>
+        <StateRevision>093002</StateRevision>
+        <EntityState>525</EntityState>
+        <SourceDateTime>2017-03-01T10:20:00.0000000</SourceDateTime>
+      </Entity>
+    </Entities>
+    <FraudResponse>
+      <CreationDateTime>2017-03-01T10:20:00.0000000+00:00</CreationDateTime>
+      <NumberofEntries>1</NumberofEntries>
+      <FraudResponseType>MSF08</FraudResponseType>
+      <FraudStatusTransactionSets>
+        <TransactionSetId>IKERDM170227791291277991</TransactionSetId>
+        <FraudItemResults>
+          <ItemId>CWP0000028704810lorkSh779</ItemId>
+          <FraudCheckResult>Fraudulent</FraudCheckResult>
+          <FraudCheckReason>000</FraudCheckReason>
+        </FraudItemResults>
+      </FraudStatusTransactionSets>
+    </FraudResponse>
+  </ICN>
+</Document>

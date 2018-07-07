@@ -1,0 +1,18 @@
+<ICN>
+	<Core>
+      <BusinessDate>2016-08-22</BusinessDate>
+      <ExtractId>8662469105262593HQYC394619</ExtractId>
+      <ProcessingParticipantId>300000</ProcessingParticipantId>
+      <ExtMessageType>PSTNG</ExtMessageType>
+      <IntMessageType>PTMA01</IntMessageType>
+      <MessageSource>MO</MessageSource>
+      <MessageDestination>IA</MessageDestination>
+      <RecordCounts>12345678</RecordCounts>                       
+	</Core>
+	<PostingBatch>
+		<PostingBatchItems>
+			<ItemId>7433151803117265LWBVC6976</ItemId>
+			<TriggeringState>212</TriggeringState>
+		</PostingBatchItems>
+	</PostingBatch>
+</ICN>

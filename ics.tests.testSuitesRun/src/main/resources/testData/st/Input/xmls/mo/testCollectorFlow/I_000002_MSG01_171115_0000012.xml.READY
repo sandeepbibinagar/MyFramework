@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Document xmlns="http://kappa.export.msf06" targetNamespace="http://kappa.export.msf06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ICSBatch>
+   <DocHdr>
+      <CreDtTm>2017-11-15T10:29:53</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <DocTyp>MSF06</DocTyp>
+   </DocHdr>
+   <DocBody>
+    <MSF06TsetFrdChkRspList>
+        <MSF06TsetFrdChkRsp>
+          <TxSetId>CLIPSL1724195788042101</TxSetId>
+          <CdtItmFrdChkRslt>
+            <CdtItmId>CLIPSL172415732iCo90Cr101</CdtItmId>
+          <FrdRsn>001</FrdRsn>
+            <FrdDtcnRslt>OK</FrdDtcnRslt>
+          </CdtItmFrdChkRslt>
+          <DbtItmFrdChkRslt>
+            <DbtItmId>CLIPSL172412635Tt86Dbt101</DbtItmId>
+            <FrdRsn>001</FrdRsn>
+            <FrdDtcnRslt>Not Processed</FrdDtcnRslt>
+            <NameChkRslt>OK</NameChkRslt>
+            <SupAddFrdInf>
+              <FrstChqDt>2017-09-12</FrstChqDt>
+              <LstChqDt>2017-09-12</LstChqDt>
+              <NmbrCntprts>0</NmbrCntprts>
+              <NmbrGdChq>0</NmbrGdChq>
+              <NmbrFrdChq>0</NmbrFrdChq>
+              <MxAmt Ccy="GBP">100.00</MxAmt>
+            </SupAddFrdInf>
+          </DbtItmFrdChkRslt>		  
+        </MSF06TsetFrdChkRsp> 
+    </MSF06TsetFrdChkRspList>
+   </DocBody>
+  </ICSBatch>
+</Document>

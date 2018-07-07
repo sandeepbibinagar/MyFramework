@@ -1,0 +1,11 @@
+com\ics\agency\entities\AgencyBankingLandingPageScenario.class
+com\ics\agency\pages\RolesSelectionAgencyPortalPage.class
+com\ics\agency\pages\ActivityLogPage.class
+com\ics\agency\pages\DashboardPage.class
+com\ics\agency\entities\OpenAgencyPageScenario.class
+com\ics\agency\pages\AgencyIdentityProviderPage.class
+com\ics\agency\pages\IncomingCreditsPage.class
+com\ics\agency\pages\OpenAgencyPortalPage.class
+com\ics\agency\pages\SearchArchivePage.class
+com\ics\agency\pages\SettlementLimits.class
+com\ics\agency\pages\BankLandingPage.class

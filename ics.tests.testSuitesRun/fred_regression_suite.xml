@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="fred_regression_suite">
+	<test name="Sprint3_2">
+		<classes>
+			<class name="com.ics.tests.fred.Sprint3_2" />
+		</classes>
+	</test> <!-- st_testing -->
+	<test name="Sprint3_3">
+		<classes>
+			<class name="com.ics.tests.fred.Sprint3_3" />
+		</classes>
+	</test> <!-- st_testing -->
+</suite> <!-- fred_regression_suite -->

@@ -1,0 +1,31 @@
+<ICN>     
+   <Core>
+     <BusinessDate>2017-07-10</BusinessDate>
+     <ExtractId>6550625487560331XCKS620494</ExtractId>
+     <ProcessingParticipantId>ABC001</ProcessingParticipantId>
+     <ExtMessageType>REMA01</ExtMessageType>
+     <IntMessageType>REMA01</IntMessageType>
+     <MessageSource>MO</MessageSource>
+     <MessageDestination>IA</MessageDestination>
+     <RecordCounts>23</RecordCounts>
+   </Core>
+   <Entities> 
+	 <Entity>
+        <EntityType>I</EntityType>
+        <EntityId>6951352864358209YBVUQ21</EntityId>
+        <StateRevision>200001</StateRevision>
+        <EntityState>20</EntityState>
+        <SourceDateTime>2016-11-07T07:58:36+00:00</SourceDateTime>
+        
+</Entity>
+  </Entities>
+  <Items>
+    <Item>
+         <ItemId>0733773204509347SBMJY8137</ItemId>
+         <ProcessId>123456789012345PROCS12345</ProcessId>
+         <OperatorId>123456789012345PROCS</OperatorId>
+         <UpdateDateTime>2016-11-07T07:58:36+00:00</UpdateDateTime>
+         <AuditRevision>123457</AuditRevision>
+    </Item>
+  </Items>
+  </ICN>

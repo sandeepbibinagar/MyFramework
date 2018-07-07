@@ -1,0 +1,25 @@
+
+<ICN>
+  <Core>
+      <BusinessDate>2016-11-04</BusinessDate>
+      <ExtractId>3638360206186807KHWV121003</ExtractId>
+      <ProcessingParticipantId>300000</ProcessingParticipantId>
+      <ExtMessageType>MSG13</ExtMessageType>
+      <IntMessageType>13MA05</IntMessageType>
+      <MessageSource>MO</MessageSource>
+      <MessageDestination>IA</MessageDestination>
+      <RecordCounts>1</RecordCounts>
+  </Core>
+	<Entities>
+		
+			<Entity>
+				<EntityType>I</EntityType>
+				<EntityId>7544673691121480HAXFA36</EntityId>
+				<StateRevision>112</StateRevision>
+				<EntityState>560</EntityState>
+				<SourceDateTime>2016-06-22T00:20:59+00:00</SourceDateTime>
+			</Entity>
+	</Entities>
+ 
+</ICN>
+

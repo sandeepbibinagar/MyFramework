@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1597" started-at="2017-12-12T10:09:47Z" finished-at="2017-12-12T10:09:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1597" started-at="2017-12-12T10:09:47Z" finished-at="2017-12-12T10:09:48Z">
+      <class name="com.ics.tests.ia.RegressionSuite_WebServices_IA">
+        <test-method status="PASS" signature="initializeExtentReportSetup()[pri:0, instance:com.ics.tests.ia.RegressionSuite_WebServices_IA@4a22f9e2]" name="initializeExtentReportSetup" is-config="true" duration-ms="264" started-at="2017-12-12T10:09:46Z" finished-at="2017-12-12T10:09:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeExtentReportSetup -->
+        <test-method status="PASS" signature="beforeMethodRun(java.lang.reflect.Method)[pri:0, instance:com.ics.tests.ia.RegressionSuite_WebServices_IA@4a22f9e2]" name="beforeMethodRun" is-config="true" duration-ms="6" started-at="2017-12-12T10:09:47Z" finished-at="2017-12-12T10:09:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ics.tests.ia.RegressionSuite_WebServices_IA.testICSGetImageQuery()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodRun -->
+        <test-method status="PASS" signature="testICSGetImageQuery()[pri:2, instance:com.ics.tests.ia.RegressionSuite_WebServices_IA@4a22f9e2]" name="testICSGetImageQuery" duration-ms="1576" started-at="2017-12-12T10:09:47Z" finished-at="2017-12-12T10:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testICSGetImageQuery -->
+        <test-method status="PASS" signature="catchPassAndExceptionsScreenshots(org.testng.ITestResult)[pri:0, instance:com.ics.tests.ia.RegressionSuite_WebServices_IA@4a22f9e2]" name="catchPassAndExceptionsScreenshots" is-config="true" duration-ms="1" started-at="2017-12-12T10:09:48Z" finished-at="2017-12-12T10:09:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testICSGetImageQuery status=SUCCESS method=RegressionSuite_WebServices_IA.testICSGetImageQuery()[pri:2, instance:com.ics.tests.ia.RegressionSuite_WebServices_IA@4a22f9e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- catchPassAndExceptionsScreenshots -->
+        <test-method status="PASS" signature="afterSuiteRun()[pri:0, instance:com.ics.tests.ia.RegressionSuite_WebServices_IA@4a22f9e2]" name="afterSuiteRun" is-config="true" duration-ms="316" started-at="2017-12-12T10:09:48Z" finished-at="2017-12-12T10:09:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteRun -->
+      </class> <!-- com.ics.tests.ia.RegressionSuite_WebServices_IA -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

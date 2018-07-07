@@ -1,0 +1,61 @@
+
+	<ICN>
+		<Core>
+			<BusinessDate>2017-11-04</BusinessDate>
+			<ExtractId>9885451721268221YDZI348825</ExtractId>
+			<ProcessingParticipantId>000001</ProcessingParticipantId>
+			<ExtMessageType>PSTNG</ExtMessageType>
+			<IntMessageType>PRMA01</IntMessageType>
+			<MessageSource>MO</MessageSource>
+			<MessageDestination>IA</MessageDestination>
+			<RecordCounts>1</RecordCounts>
+		</Core>
+		<Entities>
+			
+			<Entity>
+				<EntityType>T</EntityType>
+				<EntityId>7821428805974630USWOF64</EntityId>
+				<StateRevision>888999</StateRevision>
+				<EntityState>589</EntityState>
+				<SourceDateTime>2016-06-22T00:20:59+00:00</SourceDateTime>
+			</Entity>
+		</Entities>
+		<PostingUpdate>
+			<PostingResponse>
+				<FileId>293900159891937742545175689264TpG</FileId>
+				<FileSequenceNumber>1234</FileSequenceNumber>
+				<Source>1234</Source>
+				<FileDateTime>1234567890ASDFG1234</FileDateTime>
+				<ExtractItemCount>1234567</ExtractItemCount>
+				<PostingResponseRecord>
+					<ResponseSequence>1234567</ResponseSequence>
+					<ItemId>0998813979752188LOLOB3327</ItemId>
+					<PostingType>AS1</PostingType>
+					<Account>12345678</Account>
+					<SortCode>123456</SortCode>
+					<NPAAccount>12345678</NPAAccount>
+					<NPASortCode>123456</NPASortCode>	
+					<Amount>12345678901.12</Amount>
+					<RedirectionInd>A</RedirectionInd>
+					<AccountingSystem>ASDF</AccountingSystem>
+					<ResponseStatus>A</ResponseStatus>
+					<ResponseSubType>A</ResponseSubType>
+					<ResponseStatusCount>123</ResponseStatusCount>
+					<AggregationCount>9999</AggregationCount>
+					<ResponseDetail>
+						<RicherDataRef>qwertyuiop1234567890qwertyuiop1234567890qwertyuiop1234567890qwertyuiop1234567890qwertyuiop1234567890qwertyuiop1234567890qwertyuiop1234567890qwertyuiop1234567890</RicherDataRef>
+						<FraudStatusCode>AS12</FraudStatusCode>
+						<FraudReasonCode>AS52</FraudReasonCode>
+						<CreditReference>1234567890qwert123</CreditReference>
+						<Serial>123456</Serial>
+					</ResponseDetail>
+					<StatusRecords>
+						<StatusSequence>123</StatusSequence>
+						<ReasonCode>RrrsHH</ReasonCode>
+						<ReasonText>qwertyuiop1234567890qwertyuiop1234567890</ReasonText>
+					</StatusRecords>
+	   </PostingResponseRecord>
+   </PostingResponse>
+</PostingUpdate>
+                    
+</ICN>

@@ -1,0 +1,1 @@
+for %%G in (*.sql) do sqlcmd /S GBIBC-DV00-28-V\SQL001 /d Star -i"%%G"

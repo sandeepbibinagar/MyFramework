@@ -1,0 +1,9 @@
+com\ics\seleniumCoreUtilis\ICSPageUtilis.class
+com\ics\seleniumCoreUtilis\ScenarioTextGenerator.class
+com\ics\seleniumCoreUtilis\InternetExplorerInitializer.class
+com\ics\seleniumCoreUtilis\Component.class
+com\ics\externalFactoryUtilis\ICSDBUtilis.class
+com\ics\seleniumCoreUtilis\GenericMethodUtilis.class
+com\ics\seleniumCoreUtilis\Scenario.class
+com\ics\externalFactoryUtilis\ICSProductDBConnection.class
+com\ics\externalFactoryUtilis\ICSPropertiesConfig.class

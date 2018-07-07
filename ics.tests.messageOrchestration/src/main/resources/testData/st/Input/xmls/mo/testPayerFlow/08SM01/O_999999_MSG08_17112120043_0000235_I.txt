@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:xsd:ipsl.ics"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:cics.008.001.01 cics.008.001.01.xsd">
+  <ReqToPayRspnAckNak>
+    <GrpHdr>
+      <MsgId>83290017140C:7123000932</MsgId>
+      <CreDtTm>2017-11-21T08:23:24Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SndrId>999999</SndrId>
+	  <TstInd>true</TstInd>
+      <Sgntr>UjBsR09EbGhjZ0dTQUxNQUFBUUNBRU1tQ1p0dU1GUXhEUzhi</Sgntr>
+    </GrpHdr>	
+    <DocSts>
+      <MsgId>00000417239D:0700000002</MsgId>
+      <StsRsnInf>
+        <Cd>S000</Cd>
+        <Desc>Ackwoledg for SuCcess</Desc>
+        <ErrLctn>Success</ErrLctn>
+      </StsRsnInf>
+      </DocSts>
+  </ReqToPayRspnAckNak>
+</Document>

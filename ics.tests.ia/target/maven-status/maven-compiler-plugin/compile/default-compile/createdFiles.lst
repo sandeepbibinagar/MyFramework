@@ -1,0 +1,7 @@
+com\ics\ia\pages\SearchItemPage.class
+com\ics\ia\pages\SearchResultsPage.class
+com\ics\ia\testScenario\DBValidations.class
+com\ics\ia\pages\ImageArchiveWorkflowPage.class
+com\ics\ia\pages\RepresentQueryPage.class
+com\ics\ia\db\testScenarios\PostingExtractFile.class
+com\ics\testscenarios\ValidateLoginScenario.class

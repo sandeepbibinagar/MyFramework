@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?><AlogentPaymentsGateway>
+	<Version>
+		<MajorRev>1</MajorRev>
+		<MinorRev>1</MinorRev>
+	</Version>
+	<FieldDefinitions>
+		<FieldDefinition>
+			<Index>1</Index>
+			<Name>Name</Name>
+		</FieldDefinition>
+	</FieldDefinitions>
+	<Jobs>
+		<Job>
+			<BusinessDate>2016-09-22</BusinessDate>
+			<InstallationId>A</InstallationId>
+			<CaptureSystemId>D</CaptureSystemId>
+			<StartTime>2016-09-22T10:30:55+00:00</StartTime>
+			<EndTime>2016-09-22T20:30:55+00:00</EndTime>
+			<WorkTypeNbr>02</WorkTypeNbr>
+			<SortFamily>999</SortFamily>
+			<SourceType>Branch</SourceType>
+			<SourceName>Source</SourceName>
+			<SourceId>12</SourceId>
+			<FinancialInstitutionId>14</FinancialInstitutionId>
+					<CollectionStartTime>2016-09-22T09:30:55+00:00</CollectionStartTime>
+					<CollectionEndTime>2016-09-22T21:30:55+00:00</CollectionEndTime>
+					<Blocks>
+						<Block>
+							<BlkNbr>2130</BlkNbr>
+							<ImageType>CcittG4</ImageType>
+							<Batches>
+								<Batch>
+									<BatchTktTc>02</BatchTktTc>
+									<BatchTktAn>AV80012345&amp;%</BatchTktAn>
+									<BatchTktSc>300456</BatchTktSc>
+									<BatchTktSerial>000012</BatchTktSerial>
+									<BatchItemCreditCount>9999</BatchItemCreditCount>
+									<BatchItemDebitCount>0012</BatchItemDebitCount>
+									<BatchItemCreditAmount>999999999.99</BatchItemCreditAmount>
+									<BatchItemDebitAmount>999999999.99</BatchItemDebitAmount>
+									<SourceData>
+										<RegionId>ABC123</RegionId>
+										<AcquisitionStartTime>2016-09-22T08:30:55+00:00</AcquisitionStartTime>
+										<AcquisitionEndTime>2016-09-22T22:30:55+00:00</AcquisitionEndTime>
+										<CollectionStartTime>2016-09-22T09:00:55+00:00</CollectionStartTime>
+										<CollectionEndTime>2016-09-22T22:00:55+00:00</CollectionEndTime>
+										<BranchId>1234</BranchId>
+										<BranchName>Abc1</BranchName>
+										<ATMId>1234</ATMId>
+										<ATMName>ATMName</ATMName>
+										<CorporateId>1234</CorporateId>
+										<CorporateUserId>CorpName</CorporateUserId>
+									</SourceData>
+									<Items>
+										<Item>
+											<ISN>1DR2000001</ISN>
+											<Gender>Dr</Gender>
+											<AM>100</AM>
+											<TC>12</TC>
+											<AN>80001234</AN>
+											<SC>300123</SC>
+											<SER>000011</SER>
+											<APGTransactionNumber>00001234</APGTransactionNumber>
+											<IsElectronic>1</IsElectronic>
+											<IsOnUs>1</IsOnUs>
+											<IsDeleted>0</IsDeleted>
+											<IsCorrected>1</IsCorrected>
+											<IsAmountCorrected>1</IsAmountCorrected>
+											<IsTCCorrected>0</IsTCCorrected>
+											<IsANCorrected>1</IsANCorrected>
+											<IsSortCodeCorrected>0</IsSortCodeCorrected>
+											<IsSerialCorrected>0</IsSerialCorrected>
+											<IsReject>1</IsReject>
+											<RejectReason>1</RejectReason>
+											<SpSelector>0123</SpSelector>
+											<Currency>GBP</Currency>
+											<AdjustmentReason/>
+											<Comments>Comemnts</Comments>
+											<UserId>U0012</UserId>
+											<Process>Capture</Process>
+											<FCMIdentifier>FCM0000123456</FCMIdentifier>
+											<OriginalIsn>OrgICN00001234</OriginalIsn>
+											<AeStatus>Required</AeStatus>
+											<IcStatus>Completed</IcStatus>
+											<IqvStatus>ForcedComplete</IqvStatus>
+											<CarSetId>001</CarSetId>
+											<CarResult>Success</CarResult>
+											<IaStatus>Suspect</IaStatus>
+											<IaResult>NotRequired</IaResult>
+											<PNVReviewStatus>NotRequired</PNVReviewStatus>
+											<DuplicateStatus>5</DuplicateStatus>
+											<ReturnReason>99</ReturnReason>
+											<SourceData>
+												<BranchSelector>1234</BranchSelector>
+												<BranchItemDesc>Description</BranchItemDesc>
+												<TellerId>Teller123</TellerId>
+												<ProdType>Prod123</ProdType>
+												<TransactionType>Tran</TransactionType>
+												<ReaderFields>This is the reader fields description comprising of 85 Charecters $% and Numbers 019</ReaderFields>
+												<ReceiptNumber>R123</ReceiptNumber>
+												<CarSetId>0123</CarSetId>
+												<SentToCar>0</SentToCar>
+												<PassedCar>1</PassedCar>
+												<CarConfidence>1234</CarConfidence>
+												<SentToIcr>1</SentToIcr>
+												<AutoCorrected>0</AutoCorrected>
+												<OperatorCorrected>1</OperatorCorrected>
+												<IaStatus>Verified</IaStatus>
+												<IaResult>Failure</IaResult>
+											</SourceData>
+											<Images>
+												
+<FImage>SUkqAAgAAAASAAABBAABAAAAsAQAAAEBBAABAAAAJgIAAAIBAwABAAAAAQAAAAMBAwABAAAABAAA
+AAYBAwABAAAAAAAAAAoBAwABAAAAAQAAABEBBAABAAAA9gAAABIBAwABAAAAAQAAABUBAwABAAAA
+AQAAABYBBAABAAAAJgIAABcBBAABAAAAngUAABoBBQABAAAA5gAAABsBBQABAAAA7gAAABwBAwAB
+AAAAAQAAACQBBAABAAAAAAAAACUBBAABAAAAAAAAACgBAwABAAAAAgAAACkBAwACAAAAAAAAAAAA
+AADIAAAAAQAAAMgAAAABAAAA//JAOaM2RmyEIkESCNWSCJBEgiQRIIkEasp8so0Z2KojREgiXIkF
+h/hBhBhBqEGEGEGEGEGEGqpqEGEGEGEHvvTTTVNNNNNNV1TTTT3+id0Tuid1RO6J3RO6J3RO6J3V
+U1l3RO6J3RO+XP3wg3CDcINhYQbhBuEG4QbhBuEGwvLH6TcINwg3CDfDf//6LH////osev9P//37
+zjSbSbSbS0m0m0m0m0m0m0tGHrZmy5GzKBmbPs2zBhESy6opNpNpN++WP//+F////wten0wgwg/w
+g///+/3//4////49fxGn8f////f///////S0m5KCOGieP5K2GC2////eP//////pf009P9PiCIWf
+//+////////rdVrf1////7///////S6f+n/////7///////pf///5Ar///3//////+loX//////X
+3///////iSZQf//////Xx///////p///9f/9fdtJtJtLbSbSbSbSbSbS//tf/VtJtJtLpf//////
++a6Wj+9a/pf/4/c44YWGFhheGFhhYYWGFhhYYX1v+1tfz7REwqwwsMLDC6/2KYpitimKYpimKYr6
+f9imP5HdC2KPTFMVr32mmtpppppr//akQf77tbTWC/wwgwgwsMIMIMIMIMIML0m/wwgwv35/QYWG
+EGFEREREREREREREREREREREREf////yaxiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMR
+iMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRi
+MRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiM
+RiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMR
+iMRiMRiMRiMRiMRiMRiMRiMRiMRiiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiI
+iIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiI
+iIiIiIiIiP//////////////////////////////////////////////////////////////////
+//////5NYxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIx
+GIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxG
+IxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGI
+xGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIx
+GIxRERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERER
+ERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERH/5qFNAYNg5Nxgp1
+GZKzKCM2W6QCDQcIPhhBhBp/hB0+00H36D/6p/rRPnLrLo0T5oljlj7y3E2iWPT+9Ogg3/6CDfH/
+Gtbv69/3sKnlj/2Fh+sNIf79IbIiCC+CmRD0m9/7IWfZC//v+w+Ew9b3/hvhBvp+/5ECy6y7ZNwg
+v+/8hC8Nk3VlkjQvv8kcP7Ye4fv9w5Q/8m5D3VPj3Xf7d9pe/aVtfdtWGstH9hripBi9xTFLe+xV
+/bdqn/atftNfvtQwvbDCDCSb/DCiIiIiIiI//ABABA==</FImage>
+                    <RImage>SUkqAAgAAAASAAABBAABAAAAsAQAAAEBBAABAAAAJgIAAAIBAwABAAAAAQAAAAMBAwABAAAABAAA
+AAYBAwABAAAAAAAAAAoBAwABAAAAAQAAABEBBAABAAAA9gAAABIBAwABAAAAAQAAABUBAwABAAAA
+AQAAABYBBAABAAAAJgIAABcBBAABAAAAngUAABoBBQABAAAA5gAAABsBBQABAAAA7gAAABwBAwAB
+AAAAAQAAACQBBAABAAAAAAAAACUBBAABAAAAAAAAACgBAwABAAAAAgAAACkBAwACAAAAAAAAAAAA
+AADIAAAAAQAAAMgAAAABAAAA//JAOaM2RmyEIkESCNWSCJBEgiQRIIkEasp8so0Z2KojREgiXIkF
+h/hBhBhBqEGEGEGEGEGEGqpqEGEGEGEHvvTTTVNNNNNNV1TTTT3+id0Tuid1RO6J3RO6J3RO6J3V
+U1l3RO6J3RO+XP3wg3CDcINhYQbhBuEG4QbhBuEGwvLH6TcINwg3CDfDf//6LH////osev9P//37
+zjSbSbSbS0m0m0m0m0m0m0tGHrZmy5GzKBmbPs2zBhESy6opNpNpN++WP//+F////wten0wgwg/w
+g///+/3//4////49fxGn8f////f///////S0m5KCOGieP5K2GC2////eP//////pf009P9PiCIWf
+//+////////rdVrf1////7///////S6f+n/////7///////pf///5Ar///3//////+loX//////X
+3///////iSZQf//////Xx///////p///9f/9fdtJtJtLbSbSbSbSbSbS//tf/VtJtJtLpf//////
++a6Wj+9a/pf/4/c44YWGFhheGFhhYYWGFhhYYX1v+1tfz7REwqwwsMLDC6/2KYpitimKYpimKYr6
+f9imP5HdC2KPTFMVr32mmtpppppr//akQf77tbTWC/wwgwgwsMIMIMIMIMIML0m/wwgwv35/QYWG
+EGFEREREREREREREREREREREREf////yaxiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMR
+iMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRi
+MRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiM
+RiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMRiMR
+iMRiMRiMRiMRiMRiMRiMRiMRiMRiiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiI
+iIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiI
+iIiIiIiIiP//////////////////////////////////////////////////////////////////
+//////5NYxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIx
+GIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxG
+IxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGI
+xGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIxGIx
+GIxRERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERER
+ERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERH/5qFNAYNg5Nxgp1
+GZKzKCM2W6QCDQcIPhhBhBp/hB0+00H36D/6p/rRPnLrLo0T5oljlj7y3E2iWPT+9Ogg3/6CDfH/
+Gtbv69/3sKnlj/2Fh+sNIf79IbIiCC+CmRD0m9/7IWfZC//v+w+Ew9b3/hvhBvp+/5ECy6y7ZNwg
+v+/8hC8Nk3VlkjQvv8kcP7Ye4fv9w5Q/8m5D3VPj3Xf7d9pe/aVtfdtWGstH9hripBi9xTFLe+xV
+/bdqn/atftNfvtQwvbDCDCSb/DCiIiIiIiI//ABABA==</RImage>
+											</Images>
+											<CustomFields>
+												<cf_IQVRejectReason>Signature not legible</cf_IQVRejectReason>
+												<cf_NoPaySuspectRsn/>
+												<cf_ICSItemID>ABC12345391234ASDF12232DB</cf_ICSItemID>
+												<cf_SourceID>3000</cf_SourceID>
+												<cf_LAR>11111</cf_LAR>
+												<cf_Date>2016-01-30</cf_Date>
+												<cf_SwitchedOUT/>
+												<cf_SCDefaulted/>
+												<cf_ANDefaulted/>
+												<cf_SERDefaulted/>
+												<cf_fCashItem/>
+												<cf_NPASortCode/>
+												<Cf_DeferredPosting/>
+												<Cf_ParticipantID/>
+												<Cf_ICSTransactionID/>
+												<Cf_MSOUGroupID/>
+												<Cf_MSOUGroupName/>
+												<Cf_AccountType/>
+												<Cf_CustomerName1/>
+												<Cf_CustomerName2/>
+												<Cf_CustomerName3/>
+												<Cf_CustomerName4/>
+												<Cf_CustomerName5/>
+												<Cf_DeviceID/>
+												<Cf_ImageDateTime/>
+												<Cf_PersonID/>
+												<Cf_LocationID/>
+												<cf_DoDateCheck/>
+												<cf_DoCARvLAR/>
+												<cf_DoCARvKey/>
+												<cf_CPMError/>
+											</CustomFields>
+											<History>
+												<Change>
+													<UserId>1234</UserId>
+													<Time>2016-09-22T08:00:55+00:00</Time>
+													<Process>Image Quality Verification</Process>
+													<IsDeleted>0</IsDeleted>
+													<Gender>Ind</Gender>
+													<Codeline>
+														<AM>7598179.560</AM>
+														<TC>21</TC>
+														<AN>80001245</AN>
+														<SC>300234</SC>
+														<SER>000010</SER>
+													</Codeline>
+												</Change>
+												<Change>
+													<UserId>1235</UserId>
+													<Time>2016-09-22T08:00:55+00:00</Time>
+													<Process>Image Quality Verification</Process>
+													<IsDeleted>0</IsDeleted>
+													<Gender>Ind</Gender>
+													<Codeline>
+														<AM>111991111.01</AM>
+														<TC>  </TC>
+														<AN>80001245</AN>
+														<SC>300234</SC>
+														<SER>000010</SER>
+													</Codeline>
+												</Change>
+											</History>
+
+										</Item>
+										<Item>
+											<ISN>1DR1000001</ISN>
+											<Gender>Dr</Gender>
+											<AM>100</AM>
+											<TC>12</TC>
+											<AN>80001235</AN>
+											<SC>300124</SC>
+											<SER>000012</SER>
+											<APGTransactionNumber>00001234</APGTransactionNumber>
+											<IsElectronic>1</IsElectronic>
+											<IsOnUs>1</IsOnUs>
+											<IsDeleted>0</IsDeleted>
+											<IsCorrected>1</IsCorrected>
+											<IsAmountCorrected>1</IsAmountCorrected>
+											<IsTCCorrected>0</IsTCCorrected>
+											<IsANCorrected>1</IsANCorrected>
+											<IsSortCodeCorrected>0</IsSortCodeCorrected>
+											<IsSerialCorrected>0</IsSerialCorrected>
+											<IsReject>1</IsReject>
+											<RejectReason>1</RejectReason>
+											<SpSelector>0124</SpSelector>
+											<Currency>GBP</Currency>
+											<AdjustmentReason>05</AdjustmentReason>
+											<Comments>Comemnts</Comments>
+											<UserId>U0013</UserId>
+											<Process>Capture</Process>
+											<FCMIdentifier>FCM0000123457</FCMIdentifier>
+											<OriginalIsn>OrgICN00001235</OriginalIsn>
+											<AeStatus>Required</AeStatus>
+											<IcStatus>Completed</IcStatus>
+											<IqvStatus>ForcedComplete</IqvStatus>
+											<CarSetId>001</CarSetId>
+											<CarResult>Success</CarResult>
+											<IaStatus>Suspect</IaStatus>
+											<IaResult>NotRequired</IaResult>
+											<PNVReviewStatus>NotRequired</PNVReviewStatus>
+											<DuplicateStatus>5</DuplicateStatus>
+											<ReturnReason>99</ReturnReason>
+											<SourceData>
+												<BranchSelector>1234</BranchSelector>
+												<BranchItemDesc>Description</BranchItemDesc>
+												<TellerId>Teller124</TellerId>
+												<ProdType>Prod124</ProdType>
+												<TransactionType>Tran</TransactionType>
+												<ReaderFields>This is the reader fields description comprising of 85 Charecters $% and Numbers 020</ReaderFields>
+												<ReceiptNumber>R124</ReceiptNumber>
+												<CarSetId>0123</CarSetId>
+												<SentToCar>0</SentToCar>
+												<PassedCar>1</PassedCar>
+												<CarConfidence>1234</CarConfidence>
+												<SentToIcr>1</SentToIcr>
+												<AutoCorrected>0</AutoCorrected>
+												<OperatorCorrected>1</OperatorCorrected>
+												<IaStatus>Verified</IaStatus>
+												<IaResult>Failure</IaResult>
+											</SourceData>
+											<Images>
+<FImage>SUkqAAgAAAATAP4ABAABAAAAAAAAAAABBAABAAAA6AQAAAEBBAABAAAASwIAAAIBAwABAAAAAQAA
+AAMBAwABAAAABAAAAAYBAwABAAAAAAAAAAoBAwABAAAAAQAAABEBBAABAAAAAgEAABIBAwABAAAA
+AQAAABUBAwABAAAAAQAAABYBBAABAAAASwIAABcBBAABAAAABAYAABoBBQABAAAA8gAAABsBBQAB
+AAAA+gAAABwBAwABAAAAAQAAACQBBAABAAAAAAAAACUBBAABAAAAAAAAACgBAwABAAAAAgAAACkB
+AwACAAAAAAAAAAAAAADwAAAAAQAAAPAAAAABAAAAJqBmCHgyAh6PASwLNd6030r6pXkCByGsOUOX
+BUH25Q5dZoXbIGYGB8EIiIiIidgWRwhgM5gPMOgZNyhzgynPM5BblamodBTnTnmRByxzDlcZzGwo
+dOcmdz8VBWFST6EREREREREREREREREREREXr3//////1//+RB/CDvX69rx/yJHBhCr+cX+4+cXj
+v3+v5NVmP0Pi3+l//93bV99p33yap+37b7fse+++++++/4Lhdf//3///XCx/MBMF////////////
+///+v//////7/+u+v//7/r/////7/r/76////////9nHKvEf//5wsLVZNRrutYe+WwYXBAh47XeE
+s0Qx6dMtgIlCeoX8fC4Rx+H1/8JdFP4Nd/fvCOPwwS9+CD5n4MF6B676/vrvgjv498PhFD+P9FR3
+13/fXC//////////////13/////+WkJ5SiXBBhP1CD9E3hEpgztSXSQ052WC/VBsIt33TCYaBBh9
+Ytggn7VtJX6yIyChYX6eCBpjmSUG/Wmp0T/1RMJrp0EGgqCXLSLgmtD+9EK70vSUm4J6XlpK2FQQ
+ulS9Kgu3Mls/C35FFvqFfxcLWn9CC3V136yePvKPrG+rEmF9Prj+uk32qVU/hEGN/tIftJsEcdFP
+fhJjFMpa6LSEsEERhOn4lK0n9cIUIa/BEMbVPyE2sv2XsyXj/f17/+P///67////////////////
+/fRa4vl0XXlpEuQiIojt0RNEQiOjoinyNI06EfLSU4TkJqwka0a1ZPnu7tIV/qEdOqSSW6szQ2Zp
+IjahEdfiIjiOo0MLSwZQv8tJTW3BEdUPRVoR/EnWTo2qER8T6v/HojFiQ0MjF+Wkpqy6OiI6ESKL
+sqEJtZGIiimK+OIiQNEwsnX5JonWKRojmML6KhGi78RxxIaFNSBL/HydV5GIiEOkU+IfHvHSzUtR
+EnQU4lozTKwogqny0lJCVCNFquOUQXtIKoiKnl+Trx0kqp8VqkszX9paSCSSc17tIJ81Y4Xxhl2E
+hNQpDQJAgQlDEREREREfEREREf//9d67//X9/1///f9d////XfXf////9d9d//////LVhff6+/+v
+lqCF/v//////v///3/X6j//9f+JUl/4//+Wry8fLV5eP////+/5alaX31Xr98fX//9////9f313/
+X9//8tQpXj//5agovXwgVeFHy1CZ+WoIE8P7KXSuP////////+WgpCkWBynynCHYEL5aCA+a3ppk
+GyKh18smgpUERUHKcQE15cHHdhBhMINvybwHKAckB07TISmO5avCEO6LR5dJB3nZQiPFfREQETtB
+y4rMdtpPT+9WfRtWgm/zsUBDuxCDFIYoIhCA00Tc70XjhO6T1vT16Tr9b+d1jQZQDkMEBA0wmVZa
+cx8IQdBEi8kP3/+/f79/1RZ2mEGmQZS4pktaLO9/33+v//////p0Wdyz5kMPT70//Xj1ff/X/1X1
+53kY+nSDwm0nes6I37pP/9+P1/3/3/r//1r7/Sr/mbOfv9fVr8GXuP/2vOon1/6/9Y+v6pmP1/9a
+NaBFD/iD//sfX7/6f/v9/9O9f/+0I/df//r/17/9L/X/7Cx//peQkiKXoiz//Mbgf93////X+uN/
+v6m0726f/9f9L//hf6JSJ/+/yDzff/ff///jr9fmoJrin/5EERh/f//9f///X//V+Vgv/f+amj5d
+f//1//9//81bI4T3///p++///URv////Xi/f/r//XX1//1v/r//qXP/4iP/7C267VV9gwk2sim6v
+////T+v/r49rDYo6h/2OKh+09//+k796/fa7FSEotppqE1XiP/f6viP/yEHxu04MIRERBlQc3Jfr
+r/3rtr4YrERER9hhLV1bSyOk87sJFU0zDhBr2KYqDLhGNiSOMEmmhER8GmmKa9oR8RNTETrl8fER
+///////////3/9f3///////X/y2NUuWtrG0R0YMjgeCzlqLUR8uGSGXlpCxGxS4GYaeWYtouBqDT
+lnTgbQmWhRGwNoLWWQxEcCWBZk39GApHAmmACACAAA==</FImage>
+                    <RImage>SUkqAAgAAAATAP4ABAABAAAAAAAAAAABBAABAAAAsAQAAAEBBAABAAAAWAIAAAIBAwABAAAAAQAA
+AAMBAwABAAAABAAAAAYBAwABAAAAAAAAAAoBAwABAAAAAQAAABEBBAABAAAAAgEAABIBAwABAAAA
+AQAAABUBAwABAAAAAQAAABYBBAABAAAAWAIAABcBBAABAAAADgMAABoBBQABAAAA8gAAABsBBQAB
+AAAA+gAAABwBAwABAAAAAQAAACQBBAABAAAAAAAAACUBBAABAAAAAAAAACgBAwABAAAAAgAAACkB
+AwACAAAAAAAAAAAAAADwAAAAAQAAAPAAAAABAAAAJqB2Bk/kMgNF5Bu5CjkxyvK8oYdyD+XZWFFJ
+VlCx1BQ5nKHIOPkHbhlUI3ILYNjngqyB4asFjkF30IktyPmwyQzSOjohEGELJuU4QehE7Wsjo3mM
+js2i+R0eR9HkR0YRdGMujCIaKEIkCA8FAiJOiOjZEdEcD4vGmezNHEStF0YRcDwLkcKRwXI4ZAau
+IiIiIiIiIiIiIiIiIiIiIiU6NMjhmnEIkQiGjGaZHIjxdEcG5HyOKRwPWIhlL6lceC3KcofiIiIh
+99///r///7/+vf7X6fXf/1//////31//////////+u/6/31///LUNN/8fX//LUBP233XCCHx8tQE
+RHXw/hEDXivj5aqF4/////67/+u///6/vr9Pf/////671/rb/+u9f/rv+v/f9f/////99f///99f
+09+u/1/9+v76/vr/129et9f730v/////fX//+v7/////////r/1/9/1///99f///fX+v7///r///
+///////////vv//r//9LfX///3/9f/+v317676//76////7/////+v/v////rvrvrv/67/9Lb///
+S31/vfX//a71/r/7/+t9Prvr//////////9d////////////////rv//+v76/v/6/9f3/++v////
+//////////////1/f9Lv+tv+v0+v29L///31/////++u+v7/X99ev7676///++v/////////rv/6
+7/r//////+uFy1+RHQXLUSkQPJNF0eZdEdFxkfMZdG82ZHRdlwJ8tJIiOipokIjx5GpEfMIjoj5v
+I6PIjo5keI6LkYIjhkAT5aAJEdErR5EnF8jxzI7LoujNEdGiNowjwzaMRHClwMEcDQrJuFIq0a0a
+I6IjxHZhEdFwpHRHAlAXybASKETouMj5HDMI4EwEsyxEVZHRmjyNxcyPlzMIvmERzI6I6MDN5GIw
+jiI6N5HyOi8R0XAmgsSJZzngococ7lQVhVCUFOaCI5XFDnHJOSgw4iIiIiIiIiIiIiIiIjiIiIiI
+iIiIiIj///////ABABA=</RImage>
+
+											</Images>
+											<CustomFields>
+												<cf_IQVRejectReason>Signature not legible</cf_IQVRejectReason>
+												<cf_NoPaySuspectRsn>Wrongly Delivered</cf_NoPaySuspectRsn>
+												<cf_ICSItemID>ABC12345391234ASDF12233DB</cf_ICSItemID>
+												<cf_SourceID>3000</cf_SourceID>
+												<cf_LAR>11111</cf_LAR>
+												<cf_Date>2016-01-30</cf_Date>
+												<cf_SwitchedOUT/>
+												<cf_SCDefaulted/>
+												<cf_ANDefaulted/>
+												<cf_SERDefaulted/>
+												<cf_fCashItem/>
+												<cf_NPASortCode/>
+												<Cf_DeferredPosting/>
+												<Cf_ParticipantID/>
+												<Cf_ICSTransactionID/>
+												<Cf_MSOUGroupID/>
+												<Cf_MSOUGroupName/>
+												<Cf_AccountType/>
+												<Cf_CustomerName1/>
+												<Cf_CustomerName2/>
+												<Cf_CustomerName3/>
+												<Cf_CustomerName4/>
+												<Cf_CustomerName5/>
+												<Cf_DeviceID/>
+												<Cf_ImageDateTime/>
+												<Cf_PersonID/>
+												<Cf_LocationID/>
+												<cf_DoDateCheck/>
+												<cf_DoCARvLAR/>
+												<cf_DoCARvKey/>
+												<cf_CPMError/>
+											</CustomFields>
+											<History>
+												<Change>
+													<UserId>1234</UserId>
+													<Time>2016-09-22T08:00:55+00:00</Time>
+													<Process>Image Quality Verification</Process>
+													<IsDeleted>0</IsDeleted>
+													<Gender>Ind</Gender>
+													<Codeline>
+														<AM>3455123409.90</AM>
+														<TC>02</TC>
+														<AN>80001245</AN>
+														<SC>300234</SC>
+														<SER>000010</SER>
+													</Codeline>
+												</Change>
+											</History>
+										</Item>
+										<Item>
+											<ISN>2DR1000001</ISN>
+											<Gender>Dr</Gender>
+											<AM>100</AM>
+											<TC>02</TC>
+											<AN>80001234</AN>
+											<SC>300123</SC>
+											<SER>000011</SER>
+											<APGTransactionNumber>00001234</APGTransactionNumber>
+											<IsElectronic>1</IsElectronic>
+											<IsOnUs>1</IsOnUs>
+											<IsDeleted>0</IsDeleted>
+											<IsCorrected>1</IsCorrected>
+											<IsAmountCorrected>1</IsAmountCorrected>
+											<IsTCCorrected>0</IsTCCorrected>
+											<IsANCorrected>1</IsANCorrected>
+											<IsSortCodeCorrected>0</IsSortCodeCorrected>
+											<IsSerialCorrected>0</IsSerialCorrected>
+											<IsReject>1</IsReject>
+											<RejectReason>1</RejectReason>
+											<SpSelector>0123</SpSelector>
+											<Currency>GBP</Currency>
+											<AdjustmentReason>05</AdjustmentReason>
+											<Comments>Comemnts</Comments>
+											<UserId>U0012</UserId>
+											<Process>Capture</Process>
+											<FCMIdentifier>FCM0000123456</FCMIdentifier>
+											<OriginalIsn>OrgICN00001234</OriginalIsn>
+											<AeStatus>Required</AeStatus>
+											<IcStatus>Completed</IcStatus>
+											<IqvStatus>ForcedComplete</IqvStatus>
+											<CarSetId>001</CarSetId>
+											<CarResult>Success</CarResult>
+											<IaStatus>Suspect</IaStatus>
+											<IaResult>NotRequired</IaResult>
+											<PNVReviewStatus>NotRequired</PNVReviewStatus>
+											<DuplicateStatus>5</DuplicateStatus>
+											<ReturnReason>99</ReturnReason>
+											<SourceData>
+												<BranchSelector>1234</BranchSelector>
+												<BranchItemDesc>Description</BranchItemDesc>
+												<TellerId>Teller123</TellerId>
+												<ProdType>Prod123</ProdType>
+												<TransactionType>Tran</TransactionType>
+												<ReaderFields>This is the reader fields description comprising of 85 Charecters $% and Numbers 019</ReaderFields>
+												<ReceiptNumber>R123</ReceiptNumber>
+												<CarSetId>0123</CarSetId>
+												<SentToCar>0</SentToCar>
+												<PassedCar>1</PassedCar>
+												<CarConfidence>1234</CarConfidence>
+												<SentToIcr>1</SentToIcr>
+												<AutoCorrected>0</AutoCorrected>
+												<OperatorCorrected>1</OperatorCorrected>
+												<IaStatus>Verified</IaStatus>
+												<IaResult>Failure</IaResult>
+											</SourceData>
+											<Images>
+<FImage>SUkqAAgAAAATAP4ABAABAAAAAAAAAAABBAABAAAA6AQAAAEBBAABAAAASwIAAAIBAwABAAAAAQAA
+AAMBAwABAAAABAAAAAYBAwABAAAAAAAAAAoBAwABAAAAAQAAABEBBAABAAAAAgEAABIBAwABAAAA
+AQAAABUBAwABAAAAAQAAABYBBAABAAAASwIAABcBBAABAAAABAYAABoBBQABAAAA8gAAABsBBQAB
+AAAA+gAAABwBAwABAAAAAQAAACQBBAABAAAAAAAAACUBBAABAAAAAAAAACgBAwABAAAAAgAAACkB
+AwACAAAAAAAAAAAAAADwAAAAAQAAAPAAAAABAAAAJqBmCHgyAh6PASwLNd6030r6pXkCByGsOUOX
+BUH25Q5dZoXbIGYGB8EIiIiIidgWRwhgM5gPMOgZNyhzgynPM5BblamodBTnTnmRByxzDlcZzGwo
+dOcmdz8VBWFST6EREREREREREREREREREREXr3//////1//+RB/CDvX69rx/yJHBhCr+cX+4+cXj
+v3+v5NVmP0Pi3+l//93bV99p33yap+37b7fse+++++++/4Lhdf//3///XCx/MBMF////////////
+///+v//////7/+u+v//7/r/////7/r/76////////9nHKvEf//5wsLVZNRrutYe+WwYXBAh47XeE
+s0Qx6dMtgIlCeoX8fC4Rx+H1/8JdFP4Nd/fvCOPwwS9+CD5n4MF6B676/vrvgjv498PhFD+P9FR3
+13/fXC//////////////13/////+WkJ5SiXBBhP1CD9E3hEpgztSXSQ052WC/VBsIt33TCYaBBh9
+Ytggn7VtJX6yIyChYX6eCBpjmSUG/Wmp0T/1RMJrp0EGgqCXLSLgmtD+9EK70vSUm4J6XlpK2FQQ
+ulS9Kgu3Mls/C35FFvqFfxcLWn9CC3V136yePvKPrG+rEmF9Prj+uk32qVU/hEGN/tIftJsEcdFP
+fhJjFMpa6LSEsEERhOn4lK0n9cIUIa/BEMbVPyE2sv2XsyXj/f17/+P///67////////////////
+/fRa4vl0XXlpEuQiIojt0RNEQiOjoinyNI06EfLSU4TkJqwka0a1ZPnu7tIV/qEdOqSSW6szQ2Zp
+IjahEdfiIjiOo0MLSwZQv8tJTW3BEdUPRVoR/EnWTo2qER8T6v/HojFiQ0MjF+Wkpqy6OiI6ESKL
+sqEJtZGIiimK+OIiQNEwsnX5JonWKRojmML6KhGi78RxxIaFNSBL/HydV5GIiEOkU+IfHvHSzUtR
+EnQU4lozTKwogqny0lJCVCNFquOUQXtIKoiKnl+Trx0kqp8VqkszX9paSCSSc17tIJ81Y4Xxhl2E
+hNQpDQJAgQlDEREREREfEREREf//9d67//X9/1///f9d////XfXf////9d9d//////LVhff6+/+v
+lqCF/v//////v///3/X6j//9f+JUl/4//+Wry8fLV5eP////+/5alaX31Xr98fX//9////9f313/
+X9//8tQpXj//5agovXwgVeFHy1CZ+WoIE8P7KXSuP////////+WgpCkWBynynCHYEL5aCA+a3ppk
+GyKh18smgpUERUHKcQE15cHHdhBhMINvybwHKAckB07TISmO5avCEO6LR5dJB3nZQiPFfREQETtB
+y4rMdtpPT+9WfRtWgm/zsUBDuxCDFIYoIhCA00Tc70XjhO6T1vT16Tr9b+d1jQZQDkMEBA0wmVZa
+cx8IQdBEi8kP3/+/f79/1RZ2mEGmQZS4pktaLO9/33+v//////p0Wdyz5kMPT70//Xj1ff/X/1X1
+53kY+nSDwm0nes6I37pP/9+P1/3/3/r//1r7/Sr/mbOfv9fVr8GXuP/2vOon1/6/9Y+v6pmP1/9a
+NaBFD/iD//sfX7/6f/v9/9O9f/+0I/df//r/17/9L/X/7Cx//peQkiKXoiz//Mbgf93////X+uN/
+v6m0726f/9f9L//hf6JSJ/+/yDzff/ff///jr9fmoJrin/5EERh/f//9f///X//V+Vgv/f+amj5d
+f//1//9//81bI4T3///p++///URv////Xi/f/r//XX1//1v/r//qXP/4iP/7C267VV9gwk2sim6v
+////T+v/r49rDYo6h/2OKh+09//+k796/fa7FSEotppqE1XiP/f6viP/yEHxu04MIRERBlQc3Jfr
+r/3rtr4YrERER9hhLV1bSyOk87sJFU0zDhBr2KYqDLhGNiSOMEmmhER8GmmKa9oR8RNTETrl8fER
+///////////3/9f3///////X/y2NUuWtrG0R0YMjgeCzlqLUR8uGSGXlpCxGxS4GYaeWYtouBqDT
+lnTgbQmWhRGwNoLWWQxEcCWBZk39GApHAmmACACAAA==</FImage>
+<RImage>SUkqAAgAAAATAP4ABAABAAAAAAAAAAABBAABAAAAsAQAAAEBBAABAAAAWAIAAAIBAwABAAAAAQAA
+AAMBAwABAAAABAAAAAYBAwABAAAAAAAAAAoBAwABAAAAAQAAABEBBAABAAAAAgEAABIBAwABAAAA
+AQAAABUBAwABAAAAAQAAABYBBAABAAAAWAIAABcBBAABAAAADgMAABoBBQABAAAA8gAAABsBBQAB
+AAAA+gAAABwBAwABAAAAAQAAACQBBAABAAAAAAAAACUBBAABAAAAAAAAACgBAwABAAAAAgAAACkB
+AwACAAAAAAAAAAAAAADwAAAAAQAAAPAAAAABAAAAJqB2Bk/kMgNF5Bu5CjkxyvK8oYdyD+XZWFFJ
+VlCx1BQ5nKHIOPkHbhlUI3ILYNjngqyB4asFjkF30IktyPmwyQzSOjohEGELJuU4QehE7Wsjo3mM
+js2i+R0eR9HkR0YRdGMujCIaKEIkCA8FAiJOiOjZEdEcD4vGmezNHEStF0YRcDwLkcKRwXI4ZAau
+IiIiIiIiIiIiIiIiIiIiIiU6NMjhmnEIkQiGjGaZHIjxdEcG5HyOKRwPWIhlL6lceC3KcofiIiIh
+99///r///7/+vf7X6fXf/1//////31//////////+u/6/31///LUNN/8fX//LUBP233XCCHx8tQE
+RHXw/hEDXivj5aqF4/////67/+u///6/vr9Pf/////671/rb/+u9f/rv+v/f9f/////99f///99f
+09+u/1/9+v76/vr/129et9f730v/////fX//+v7/////////r/1/9/1///99f///fX+v7///r///
+///////////vv//r//9LfX///3/9f/+v317676//76////7/////+v/v////rvrvrv/67/9Lb///
+S31/vfX//a71/r/7/+t9Prvr//////////9d////////////////rv//+v76/v/6/9f3/++v////
+//////////////1/f9Lv+tv+v0+v29L///31/////++u+v7/X99ev7676///++v/////////rv/6
+7/r//////+uFy1+RHQXLUSkQPJNF0eZdEdFxkfMZdG82ZHRdlwJ8tJIiOipokIjx5GpEfMIjoj5v
+I6PIjo5keI6LkYIjhkAT5aAJEdErR5EnF8jxzI7LoujNEdGiNowjwzaMRHClwMEcDQrJuFIq0a0a
+I6IjxHZhEdFwpHRHAlAXybASKETouMj5HDMI4EwEsyxEVZHRmjyNxcyPlzMIvmERzI6I6MDN5GIw
+jiI6N5HyOi8R0XAmgsSJZzngococ7lQVhVCUFOaCI5XFDnHJOSgw4iIiIiIiIiIiIiIiIjiIiIiI
+iIiIiIj///////ABABA=</RImage>
+
+											</Images>
+											<CustomFields>
+												<cf_IQVRejectReason>Signature not legible</cf_IQVRejectReason>
+												<cf_NoPaySuspectRsn>Stops</cf_NoPaySuspectRsn>
+												<cf_ICSItemID>ABC12345391234ASDF12234DB</cf_ICSItemID>
+												<cf_SourceID>3000</cf_SourceID>
+												<cf_LAR>11111</cf_LAR>
+												<cf_Date>2016-01-30</cf_Date>
+												<cf_SwitchedOUT/>
+												<cf_SCDefaulted/>
+												<cf_ANDefaulted/>
+												<cf_SERDefaulted/>
+												<cf_fCashItem/>
+												<cf_NPASortCode/>
+												<Cf_DeferredPosting/>
+												<Cf_ParticipantID/>
+												<Cf_ICSTransactionID/>
+												<Cf_MSOUGroupID/>
+												<Cf_MSOUGroupName/>
+												<Cf_AccountType/>
+												<Cf_CustomerName1/>
+												<Cf_CustomerName2/>
+												<Cf_CustomerName3/>
+												<Cf_CustomerName4/>
+												<Cf_CustomerName5/>
+												<Cf_DeviceID/>
+												<Cf_ImageDateTime/>
+												<Cf_PersonID/>
+												<Cf_LocationID/>
+												<cf_DoDateCheck/>
+												<cf_DoCARvLAR/>
+												<cf_DoCARvKey/>
+												<cf_CPMError/>
+											</CustomFields>
+											<History>
+												<Change>
+													<UserId>1234</UserId>
+													<Time>2016-09-22T08:00:55+00:00</Time>
+													<Process>Image Quality Verification</Process>
+													<IsDeleted>0</IsDeleted>
+													<Gender>Ind</Gender>
+													<Codeline>
+														<AM>43589955.191</AM>
+														<TC>02</TC>
+														<AN>80001245</AN>
+														<SC>300234</SC>
+														<SER>000010</SER>
+													</Codeline>
+												</Change>
+												<Change>
+													<UserId>1235</UserId>
+													<Time>2016-09-22T08:00:55+00:00</Time>
+													<Process>Image Quality Verification</Process>
+													<IsDeleted>0</IsDeleted>
+													<Gender>Ind</Gender>
+													<Codeline>
+														<AM>111.9</AM>
+														<TC>02</TC>
+														<AN>80001245</AN>
+														<SC>300234</SC>
+														<SER>000010</SER>
+													</Codeline>
+												</Change>
+												<Change>
+													<UserId>1235</UserId>
+													<Time>2016-09-22T08:00:55+00:00</Time>
+													<Process>Image Quality Verification</Process>
+													<IsDeleted>0</IsDeleted>
+													<Gender>Ind</Gender>
+													<Codeline>
+														<AM>43500000.00</AM>
+														<TC>02</TC>
+														<AN>80001245</AN>
+														<SC>300234</SC>
+														<SER>000010</SER>
+													</Codeline>
+												</Change>
+											</History>
+										</Item>
+																			</Items>
+								</Batch>
+							</Batches>
+						</Block>
+					</Blocks>
+				</Job>
+	</Jobs>
+</AlogentPaymentsGateway>

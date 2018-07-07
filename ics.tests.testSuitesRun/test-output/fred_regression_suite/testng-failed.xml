@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [fred_regression_suite]">
+  <test name="Sprint3_2">
+    <classes>
+      <class name="com.ics.tests.fred.Sprint3_2"/>
+    </classes>
+  </test> <!-- Sprint3_2 -->
+  <test name="Sprint3_3">
+    <classes>
+      <class name="com.ics.tests.fred.Sprint3_3"/>
+    </classes>
+  </test> <!-- Sprint3_3 -->
+  <test name="Sprint3_2(failed)">
+    <classes>
+      <class name="com.ics.tests.fred.Sprint3_3">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="driverSetup"/>
+        </methods>
+      </class> <!-- com.ics.tests.fred.Sprint3_3 -->
+      <class name="com.ics.tests.fred.Sprint3_2">
+        <methods>
+          <include name="test_case_62948"/>
+          <include name="quitDriver"/>
+          <include name="driverSetup"/>
+        </methods>
+      </class> <!-- com.ics.tests.fred.Sprint3_2 -->
+    </classes>
+  </test> <!-- Sprint3_2(failed) -->
+  <test name="Sprint3_3(failed)">
+    <classes>
+      <class name="com.ics.tests.fred.Sprint3_3">
+        <methods>
+          <include name="test_case_62949"/>
+          <include name="quitDriver"/>
+          <include name="driverSetup"/>
+        </methods>
+      </class> <!-- com.ics.tests.fred.Sprint3_3 -->
+      <class name="com.ics.tests.fred.Sprint3_2">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="driverSetup"/>
+        </methods>
+      </class> <!-- com.ics.tests.fred.Sprint3_2 -->
+    </classes>
+  </test> <!-- Sprint3_3(failed) -->
+</suite> <!-- Failed suite [fred_regression_suite] -->

@@ -1,0 +1,38 @@
+<ICN>
+  <Core>
+      <BusinessDate>2016-11-04</BusinessDate>
+      <ExtractId>3149459199837214LUFK704395</ExtractId>
+      <ProcessingParticipantId>300000</ProcessingParticipantId>
+      <ExtMessageType>MSG06</ExtMessageType>
+      <IntMessageType>06MA04</IntMessageType>
+      <MessageSource>MO</MessageSource>
+      <MessageDestination>IA</MessageDestination>
+      <RecordCounts>1</RecordCounts>
+  </Core>
+	<Entities>
+		
+			<Entity>
+				<EntityType>I</EntityType>
+				<EntityId>8865150273869941KTFPX48</EntityId>
+				<StateRevision>112</StateRevision>
+				<EntityState>560</EntityState>
+				<SourceDateTime>2016-06-22T00:20:59+00:00</SourceDateTime>
+			</Entity>
+	</Entities>
+  <Items>
+  	
+
+	  	<Item>
+      <ItemId>1651213794945848ECWNH4841</ItemId>
+      <ProcessId>00156process1</ProcessId>
+      <OperatorId>123456opsid</OperatorId>
+      <UpdateDateTime>2016-07-07T07:58:36+00:00</UpdateDateTime>
+      <AuditRevision>210000</AuditRevision>
+	  <Gender>Db</Gender>
+	<PayDecision>
+          <PayDecision>true</PayDecision>
+          <PayDecisionReasonCode>AC68</PayDecisionReasonCode>         
+      </PayDecision>
+      </Item>
+  </Items> 
+</ICN>

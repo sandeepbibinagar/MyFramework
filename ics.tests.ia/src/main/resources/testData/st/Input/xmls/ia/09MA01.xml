@@ -1,0 +1,27 @@
+
+<ICN>
+	<Core>
+      <BusinessDate>2016-08-22</BusinessDate>
+      <ExtractId>2100374405868548HTXE782754</ExtractId>
+      <ProcessingParticipantId>300000</ProcessingParticipantId>
+      <ExtMessageType>MSG09</ExtMessageType>
+      <IntMessageType>09MA01</IntMessageType>
+      <MessageSource>MO</MessageSource>
+      <MessageDestination>IA</MessageDestination>
+      <RecordCounts>12345678</RecordCounts>                       
+	</Core>
+	<Entities>
+		<Entity>
+			<EntityType>I</EntityType>
+			<EntityId>8210469388535114VZGAO62</EntityId>
+			<StateRevision>11</StateRevision>
+			<EntityState>600</EntityState>
+			<SourceDateTime>2016-06-22T00:20:59+00:00</SourceDateTime>
+			<EntityError>
+				<ErrorCode>ZTTZ</ErrorCode>
+				<ErrorDescription>DWHPWVVUZNXWWFFJCRMCUHVGKRYOMIOCUGMLNCKMUTPBQGEEQMBIHRIUQAEEXHIRYVBQTUWZGAHASUQENTXZGFVDYRUNYFPNKYCUENLWPCBGJHCVJZRDKIKSZYRBZJBBLUQUSVAZIBKEEOTRPZDYOLCBNJUGWJWGBAVOQIDNZSVJYGOLEAMAFCMZROGIBUDYEDCDSEAHVPZWQTCGUJBVXWAYNWXCBUMFOWEVDLSZAFEQDQJXMANRSHBHCDPWHYF</ErrorDescription>
+				
+			</EntityError>
+		</Entity>
+	</Entities>
+</ICN>

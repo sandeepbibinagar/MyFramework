@@ -1,0 +1,49 @@
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ICSBatch>
+    <DocHdr>
+      <CreDtTm>2017-10-11T12:31:07+00:00</CreDtTm>
+      <NbOfTxs>4</NbOfTxs>
+      <DocTyp>MSF06</DocTyp>
+    </DocHdr>
+    <DocBody>
+      <MSF06TsetFrdChkRspList>
+        <MSF06TsetFrdChkRsp>
+          <TxSetId>BNIPSL1710081047441001</TxSetId>
+          <CdtItmFrdChkRslt>
+            <CdtItmId>BNIPSL171008104744Crdt101</CdtItmId>
+            <FrdDtcnRslt>OK</FrdDtcnRslt>
+          </CdtItmFrdChkRslt>		  
+        </MSF06TsetFrdChkRsp>
+        <MSF06TsetFrdChkRsp>
+          <TxSetId>BNIPSL1710081047441002</TxSetId>
+          <CdtItmFrdChkRslt>
+            <CdtItmId>BNIPSL171008104744Crdt102</CdtItmId>
+            <FrdDtcnRslt>Not Processed</FrdDtcnRslt>
+          </CdtItmFrdChkRslt>	
+           <CdtItmFrdChkRslt>
+            <CdtItmId>BNIPSL171008104744Crdt103</CdtItmId>
+            <FrdDtcnRslt>OK</FrdDtcnRslt>
+          </CdtItmFrdChkRslt>	
+          <CdtItmFrdChkRslt>
+            <CdtItmId>BNIPSL171008104744Crdt104</CdtItmId>
+            <FrdDtcnRslt>Not Processed</FrdDtcnRslt>
+          </CdtItmFrdChkRslt>		  
+        </MSF06TsetFrdChkRsp>
+        <MSF06TsetFrdChkRsp>
+          <TxSetId>BNIPSL1710081047441003</TxSetId>
+          <CdtItmFrdChkRslt>
+            <CdtItmId>BNIPSL171008104744Crdt105</CdtItmId>
+            <FrdDtcnRslt>Fraudulent</FrdDtcnRslt>
+          </CdtItmFrdChkRslt>		  
+        </MSF06TsetFrdChkRsp>
+         <MSF06TsetFrdChkRsp>
+          <TxSetId>BNIPSL1710081047441004</TxSetId>
+          <CdtItmFrdChkRslt>
+            <CdtItmId>BNIPSL171008104744Crdt106</CdtItmId>
+            <FrdDtcnRslt>OK</FrdDtcnRslt>
+          </CdtItmFrdChkRslt>		  
+        </MSF06TsetFrdChkRsp>
+     </MSF06TsetFrdChkRspList>
+    </DocBody>
+  </ICSBatch>
+</Document>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.ics.tests.ia.MessagesLoadAndValidation">
+        <methods>
+          <include name="testcase77337"/>
+          <include name="testcase81709"/>
+          <include name="testcase74605"/>
+          <include name="testcase74477"/>
+          <include name="testcase74196"/>
+          <include name="testcase74195"/>
+          <include name="testcase74418"/>
+          <include name="testcase74415"/>
+          <include name="testcase74421"/>
+          <include name="testcase74420"/>
+          <include name="testcase76053"/>
+          <include name="testcase76054"/>
+          <include name="testcase74263"/>
+          <include name="testcase74245"/>
+          <include name="testcase119203"/>
+          <include name="testcase74907"/>
+          <include name="testcase74807"/>
+          <include name="testcase74805"/>
+          <include name="testcase74796"/>
+          <include name="testcase74798"/>
+          <include name="testcase63239"/>
+          <include name="testcase63240"/>
+          <include name="testcase63521"/>
+          <include name="testcase63519"/>
+          <include name="testcase63281"/>
+          <include name="testcase63279"/>
+          <include name="testcase58839"/>
+          <include name="testcase58687"/>
+          <include name="testcase71875"/>
+          <include name="testcase71872"/>
+          <include name="testcase61886"/>
+          <include name="testcase60206"/>
+          <include name="testcase58586"/>
+          <include name="testcase61771"/>
+          <include name="testcase60853"/>
+          <include name="testcase61730"/>
+          <include name="testcase65858"/>
+          <include name="testcase65907"/>
+          <include name="testcase74810"/>
+          <include name="testcase74808"/>
+          <include name="testcase77784"/>
+          <include name="testcase77781"/>
+          <include name="testcase63217"/>
+          <include name="testcase63028"/>
+          <include name="testcase63431"/>
+          <include name="testcase63433"/>
+          <include name="testcase67835"/>
+          <include name="testcase67833"/>
+          <include name="testcase88215"/>
+          <include name="testcase88219"/>
+          <include name="testcase69486"/>
+          <include name="testcase69493"/>
+          <include name="testcase61890"/>
+          <include name="testcase61888"/>
+          <include name="testcase72578"/>
+          <include name="testcase72580"/>
+          <include name="testcase141960"/>
+          <include name="testcase141966"/>
+          <include name="testcase75228"/>
+          <include name="testcase75330"/>
+          <include name="testcase75201"/>
+          <include name="testcase75200"/>
+          <include name="testcase74889"/>
+          <include name="testcase74939"/>
+          <include name="testcase134405"/>
+          <include name="testcase134406"/>
+          <include name="testcase142226"/>
+          <include name="testcase142230"/>
+          <include name="testcase142169"/>
+          <include name="testcase142170"/>
+        </methods>
+      </class> <!-- com.ics.tests.ia.MessagesLoadAndValidation -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

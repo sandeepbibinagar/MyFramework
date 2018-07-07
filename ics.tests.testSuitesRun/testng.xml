@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test3">
+    <classes>
+      <class name="com.ics.tests.agency.Regression_IncomingCredits">
+        <methods>
+          <include name="loginPortal"/>
+        </methods>
+      </class> <!-- com.ics.tests.agency.Regression_IncomingCredits -->
+    </classes>
+  </test> <!-- Test3 -->
+  <test name="Test4">
+    <classes>
+      <class name="com.ics.tests.agency.Regression_IncomingCredits">
+        <methods>
+          <include name="test_case_84328_allCollected_statusFilter"/>
+        </methods>
+      </class> <!-- com.ics.tests.agency.Regression_IncomingCredits -->
+    </classes>
+  </test> <!-- Test4 -->
+  <test name="Test9">
+    <classes>
+      <class name="com.ics.tests.agency.Regression_IncomingCredits">
+        <methods>
+          <include name="test_case_84331_allCollected_refresh"/>
+        </methods>
+      </class> <!-- com.ics.tests.agency.Regression_IncomingCredits -->
+    </classes>
+  </test> <!-- Test9 -->
+  <test name="Test31">
+    <classes>
+      <class name="com.ics.tests.agency.Regression_IncomingCredits">
+        <methods>
+          <include name="logoutPortal"/>
+        </methods>
+      </class> <!-- com.ics.tests.agency.Regression_IncomingCredits -->
+    </classes>
+  </test> <!-- Test31 -->
+  <test name="Test34">
+    <classes>
+      <class name="com.ics.tests.agency.Regression_IncomingDebits">
+        <methods>
+          <include name="test_case_81487_payDecisionIcon_decisonerApproves_approverApproves"/>
+        </methods>
+      </class> <!-- com.ics.tests.agency.Regression_IncomingDebits -->
+    </classes>
+  </test> <!-- Test34 -->
+</suite> <!-- Suite -->

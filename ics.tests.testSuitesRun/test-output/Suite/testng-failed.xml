@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="com.ics.tests.ia.MessagesLoadAndValidation">
+        <methods>
+          <include name="testcase77337"/>
+          <include name="testcase81709"/>
+        </methods>
+      </class> <!-- com.ics.tests.ia.MessagesLoadAndValidation -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->

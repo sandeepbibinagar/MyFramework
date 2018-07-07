@@ -1,0 +1,40 @@
+
+	<ICN>
+		<Core>
+			<BusinessDate>2016-10-07</BusinessDate>
+			<ExtractId>8228932133485152YQSN362548</ExtractId>
+			<ProcessingParticipantId>300000</ProcessingParticipantId>
+			<ExtMessageType>MSG05</ExtMessageType>
+			<IntMessageType>05MA03</IntMessageType>
+			<MessageSource>MO</MessageSource>  
+			<MessageDestination>IA</MessageDestination>
+			<RecordCounts>2</RecordCounts>
+		</Core>
+		<Entities>
+			<Entity>
+				<EntityType>I</EntityType>                  
+				<EntityId>8551220267497754DCTVE40</EntityId>
+				<StateRevision>111444</StateRevision>
+				<EntityState>250</EntityState>
+				<SourceDateTime>2016-10-07T07:58:36+00:00</SourceDateTime>
+			</Entity>
+		</Entities>
+<FraudResponse>
+			<CreationDateTime>2016-06-22T00:20:59+00:00</CreationDateTime>
+			<NumberofEntries>1</NumberofEntries>
+			<FraudResponseType>MSF06</FraudResponseType>
+			<FraudStatusTransactionSets>
+				<TransactionSetId>ASHOGY162782814981023819</TransactionSetId>
+				<FraudItemResults>
+					<ItemId>1681528472377034XDOOI7344</ItemId>
+					<FraudCheckResult>OK</FraudCheckResult>
+					<FraudCheckReason>A1G</FraudCheckReason>
+				</FraudItemResults>
+				<FraudItemResults>
+					<ItemId>5370531526879249CYROM6872</ItemId>
+					<FraudCheckResult>Not Processed</FraudCheckResult>
+					 <FraudCheckReason>A1G</FraudCheckReason>
+				</FraudItemResults>
+			</FraudStatusTransactionSets>
+		</FraudResponse>
+		</ICN>

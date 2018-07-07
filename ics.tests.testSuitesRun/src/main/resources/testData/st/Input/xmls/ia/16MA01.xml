@@ -1,0 +1,35 @@
+
+  <ICN>
+    <Core>
+      <BusinessDate>2017-10-06</BusinessDate>
+      <ExtractId>4648628358288861INHX792983</ExtractId>
+      <ProcessingParticipantId>000004</ProcessingParticipantId>
+      <ExtMessageType>MSG16</ExtMessageType>
+      <IntMessageType>16MA01</IntMessageType>
+      <MessageSource>MO</MessageSource>
+      <MessageDestination>IA</MessageDestination>
+      <RecordCounts>1</RecordCounts>
+    </Core>
+    <Entities>
+      <Entity>
+        <EntityType>I</EntityType>
+        <EntityId>7651615370905438BKVRR87</EntityId>
+        <StateRevision>279003</StateRevision>
+        <EntityState>180</EntityState>
+      	<SourceDateTime>2016-11-07T07:58:36+00:00</SourceDateTime>
+      
+</Entity>
+    </Entities>
+    <FraudResponse>
+      <CreationDateTime>2017-10-05T16:31:43+00:00</CreationDateTime>
+      <NumberofEntries>1</NumberofEntries>
+      <FraudStatusTransactionSets>
+        <TransactionSetId>SBZT00170081789000000101</TransactionSetId>
+        <FraudItemResults>
+          <ItemId>0562891812594976BLIOA7307</ItemId>
+          <FraudCheckResult>FRDL</FraudCheckResult>
+          <FraudCheckReason>F180</FraudCheckReason>
+        </FraudItemResults>
+      </FraudStatusTransactionSets>
+    </FraudResponse>
+  </ICN>
